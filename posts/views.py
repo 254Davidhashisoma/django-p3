@@ -130,4 +130,4 @@ class ProjectsList(APIView):
         all_merch = Projects.objects.all()
         serializers = ProjectSerializer(all_merch, many=True)
         return Response(serializers.data)
-views here.
+

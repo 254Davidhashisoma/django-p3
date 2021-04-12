@@ -11,8 +11,8 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
 import os
-from pathlib import Path
 import dj_database_url
+from pathlib import Path
 from decouple import config,Csv
 
 import cloudinary
@@ -106,8 +106,8 @@ else:
    }
 
 db_from_env = dj_database_url.config(conn_max_age=500)
-DATABASES['default'].update(db_from_env)
-
+# DATABASES['default'].update(db_from_env)
+DATABASES['default'] = dj_database_url.config(conn_max_age=600, ssl_require=True)
 ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
 
 # Database

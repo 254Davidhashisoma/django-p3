@@ -19,27 +19,17 @@
 <body>
     <section>
         <!-- top navbar-->
-        <div class="over-nav container-fluid px-4 py-4 c-darkgrey txt-lightgrey ">
-            <div class="d-flex justify-content-between">
-                <div class="d-flex mr-auto">
-                    <h6 class="mb-0 lan f-12 pb-0"><u>ENGLISH</u></h6>
-                </div>
-                <div class="d-flex">
-                    <p class="d-flex ml-auto">The awards of design, creativity and innovation</p>
-                </div>
-                <div class="d-flex ml-auto">
-                </div>
-            </div>
-        </div>
 
-<nav class="mb-1 navbar navbar-expand-lg navbar-dark bg-info">
-                <div class="container-fluid px-0 d nav-border text-white-50">
-                    <div id="menu-toogle" class="d-flex align-items-center w-25 pl-4">
-                        <span class="mr-2">
-                            <img id="img-icon" src="{% static 'images/icon.png' %}" style="width: 50px; height: 50px;">
-                        </span>
-                        <h6 class="mb-0 pr-4 f-10">MENU</h6>
-</div>
+
+<nav class="navbar navbar-expand-lg navbar-dark  bg-dark" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="/#page-top">HASHI</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+            Menu
+            <i class="fas fa-bars"></i>
+        </button>
   <a class="navbar-brand" href="{% url 'home'%}"><b>Awwards App</b></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
     aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
@@ -94,4 +84,16 @@
       </div>
   </div>
 </nav>
+        <div class="over-nav container-fluid px-4 py-4 c-darkgrey txt-lightgrey ">
+            <div class="d-flex justify-content-between">
+                <div class="d-flex mr-auto">
+                    <h6 class="mb-0 lan f-12 pb-0"><u>ENGLISH</u></h6>
+                </div>
+                <div class="d-flex">
+                    <p class="d-flex ml-auto">The awards of design, creativity and innovation</p>
+                </div>
+                <div class="d-flex ml-auto">
+                </div>
+            </div>
+        </div>
 <!--/.Navbar -->

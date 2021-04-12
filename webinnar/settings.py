@@ -12,6 +12,8 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 
 import os
 from pathlib import Path
+# import dj_database_url
+# from decouple import config,Csv
 
 import cloudinary
 import cloudinary.uploader
@@ -126,3 +128,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+
+
+CLOUDINARY_STORAGE ={
+    'CLOUD_NAME':"ashisoma",
+    'API_KEY':"732674299667284",
+    'API_SECRET':"7mQoDNV8VE_XePPSvGDYvjTFkW4"
+}

@@ -132,9 +132,9 @@ STATIC_URL = '/static/'
 
   #add config 
 cloudinary.config(
-  cloud_name = os.environ.get('CLOUD_NAME'),
-  api_key = os.environ.get('API_KEY'),
-  api_secret = os.environ.get('API_SECRET'),
+  cloud_name = "ashisoma",
+  api_key = "732674299667284",
+  api_secret = "7mQoDNV8VE_XePPSvGDYvjTFkW4",
   secure = True
 )
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'

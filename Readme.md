@@ -1,6 +1,19 @@
-#  Award
+#  Pro Award
 
 #### Author: [DAVID HASHISOMA](https://github.com/254Davidhashisoma)
+
+## - Full Screen layout
+
+
+
+
+![Alt text](/posts/static/images/aw1.png?raw=true "Main Page")
+
+![Alt tex](posts/static/images/aw2.png?raw=true "Main Page")
+
+![Alt tex](posts/static/images/q2.png?raw=true "Main Page")
+
+
 
 
 ## Description

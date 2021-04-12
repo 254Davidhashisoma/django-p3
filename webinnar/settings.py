@@ -115,8 +115,8 @@ ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgres',
-        'NAME': 'webinnar'),
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'webinnar',
     }
 }
 
